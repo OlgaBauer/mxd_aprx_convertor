@@ -15,8 +15,8 @@ uploaded_file = st.file_uploader("Upload Excel file with MXD paths", type=["xlsx
 mxd_folder = st.text_input("Or enter folder path containing MXDs (if not using Excel):")
 
 # Template APRX file (required)
-#template_aprx = st.text_input("Enter full path to the template APRX file:") #upload via button 
-template_aprx = r"C:\gis_pm\innovative_water\bracs\study\mxd_aprx_conversion_test\template\template.aprx"
+template_aprx = st.text_input("Enter full path to the template APRX file:") 
+#template_aprx = r"C:\gis_pm\innovative_water\bracs\study\mxd_aprx_conversion_test\template\template.aprx"
 
 # Output folder for new APRX files
 #output_folder = st.text_input("Enter output folder for new APRX files:") 

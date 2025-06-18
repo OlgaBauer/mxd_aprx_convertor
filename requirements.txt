@@ -1,7 +1,4 @@
 arcgis==2.3.0
-arcgispro==3.3
-arcpy==3.3
-arcpy-base==3.3
 pandas==2.0.2
 streamlit==1.45.1
 pip==25.1.1
